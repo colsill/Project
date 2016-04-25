@@ -10,7 +10,7 @@ public class CalMain {
 		Calculator cal=new Calculator();
 		JFrame frame = new JFrame("Answer");
 		
-		//double n1=Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to add?"));
+		double n1 = Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to add?"));
 		double n2=Integer.parseInt(JOptionPane.showInputDialog("Please enter 2st number to add?"));
 		double answerAdd=cal.add(n1,n2);
 		JOptionPane.showMessageDialog(frame, answerAdd);
