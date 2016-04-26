@@ -5,10 +5,15 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CalculatorTest {
+	private Calculator cal;
 
+
+	public void setUp() throws Exception {
+	 cal = new Calculator();
+	}
 	@Test
 	public void testAdd() {
-		fail("Not yet implemented");
+		assertEquals("add",7, cal.add(3, 4));
 	}
 
 	@Test
