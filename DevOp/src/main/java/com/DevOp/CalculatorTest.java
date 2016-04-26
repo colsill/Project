@@ -1,5 +1,7 @@
 package com.DevOp;
 
+
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -13,7 +15,7 @@ public class CalculatorTest {
 	}
 	@Test
 	public void testAdd() {
-		assertEquals("add",7, cal.add(3, 4));
+		fail("Not yet implemented");
 	}
 
 	@Test
