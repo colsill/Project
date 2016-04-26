@@ -1,32 +1,27 @@
 package com.DevOp;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.*;
 
-public class CalculatorTest extends TestCase {
-	
-	/* @Before
-	 public void setUp() throws Exception {
-	  calc = new Calculator();
-	 }
+import org.junit.Test;
 
-	public void testAdd() {
-		 double result = calc.add(10, 20);
-		  assertEquals(30, result, 0);
-	}
-	*/
+public class CalculatorTest1 {
 
+	@Test
 	public void testAdd() {
 		fail("Not yet implemented");
 	}
 
+	@Test
 	public void testSubtract() {
 		fail("Not yet implemented");
 	}
 
+	@Test
 	public void testMultiply() {
 		fail("Not yet implemented");
 	}
 
+	@Test
 	public void testDivide() {
 		fail("Not yet implemented");
 	}
