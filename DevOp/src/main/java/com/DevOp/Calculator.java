@@ -2,7 +2,7 @@ package com.DevOp;
 //comment
 
 public class Calculator {
-		public static double add(double a, double b) {
+		public double add(double a, double b) {
 		  return a + b;
 		 }
 		  
