@@ -8,7 +8,6 @@ public class CalMain {
 	public static void main(String[] args) {
 		
 		Calculator cal=new Calculator();
-		
 		JFrame frame = new JFrame("Answer");
 		
 		double n1 = Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to add?"));
