@@ -1,5 +1,6 @@
 package com.DevOp;
 
+import junit.runner.Version;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
@@ -9,6 +10,7 @@ public class CalMain {
 		
 		Calculator cal=new Calculator();
 		JFrame frame = new JFrame("Answer");
+		System.out.println("JUnit version is: " + Version.id());
 		
 		double n1 = Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to add?"));
 		double n2=Integer.parseInt(JOptionPane.showInputDialog("Please enter 2st number to add?"));
