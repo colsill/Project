@@ -12,13 +12,13 @@ public class CalMain {
 		JFrame frame = new JFrame("Answer");
 		System.out.println("JUnit version is: " + Version.id());
 		
-		double n1 = Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to add?"));
-		double n2=Integer.parseInt(JOptionPane.showInputDialog("Please enter 2st number to add?"));
-		double answerAdd=cal.add(n1,n2);
+		int n1 = Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to add?"));
+		int n2=Integer.parseInt(JOptionPane.showInputDialog("Please enter 2st number to add?"));
+		int answerAdd=cal.add(n1,n2);
 		JOptionPane.showMessageDialog(frame, answerAdd);
-		double s1 = Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to subtract?"));
-		double s2=Integer.parseInt(JOptionPane.showInputDialog("Please enter 2st number to subtract?"));
-		double answerSubtract=cal.subtract(s1, s2);
+		int s1 = Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to subtract?"));
+		int s2=Integer.parseInt(JOptionPane.showInputDialog("Please enter 2st number to subtract?"));
+		int answerSubtract=cal.subtract(s1, s2);
 		JOptionPane.showMessageDialog(frame, answerSubtract);
 		
 		

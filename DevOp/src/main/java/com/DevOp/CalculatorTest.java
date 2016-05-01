@@ -28,22 +28,24 @@ public class CalculatorTest {
 
 	@Test
 	public void testAdd() {
-		fail("Not yet implemented"); // TODO
+		//fail("Not yet implemented"); // TODO
+		
+	      assertEquals("error in add()",  3, Calculator.add(1, 2));
 	}
 
 	@Test
 	public void testSubtract() {
-		fail("Not yet implemented"); // TODO
+		assertEquals("error in add()",  3, Calculator.subtract(5, 2));
 	}
 
 	@Test
 	public void testMultiply() {
-		fail("Not yet implemented"); // TODO
+		assertEquals("error in add()",  27, Calculator.multiply(9, 3));
 	}
 
 	@Test
 	public void testDivide() {
-		fail("Not yet implemented"); // TODO
+		assertEquals("error in add()",  3, Calculator.divide(9, 3));
 	}
 
 	@Test

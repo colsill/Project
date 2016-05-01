@@ -2,19 +2,19 @@ package com.DevOp;
 //comment
 
 public class Calculator {
-	public double add(double a, double b) {
+	public static int add(int a, int b) {
 		  return a + b;
 		 }
 		  
-		 public double subtract(double a, double b) {
+	public static int subtract(int a, int b) {
 		  return a - b;
 		 }
 		  
-		 public double multiply(double a, double b) {
+		 public static int multiply(int a, int b) {
 		  return a * b;
 		 }
 		  
-		 public double divide(double a, double b) { 
+		 public static int divide(int a, int b) { 
 		  if(b == 0) {
 		   throw new ArithmeticException();
 		  }
