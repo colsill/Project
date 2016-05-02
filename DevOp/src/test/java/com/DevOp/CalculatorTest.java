@@ -48,9 +48,6 @@ public class CalculatorTest {
 		assertEquals("error in add()",  3, Calculator.divide(9, 3));
 	}
 
-	@Test
-	public void testToString() {
-		fail("Not yet implemented"); // TODO
-	}
+	
 
 }
