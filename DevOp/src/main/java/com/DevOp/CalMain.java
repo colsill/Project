@@ -20,6 +20,10 @@ public class CalMain {
 		int s2=Integer.parseInt(JOptionPane.showInputDialog("Please enter 2st number to subtract?"));
 		int answerSubtract=cal.subtract(s1, s2);
 		JOptionPane.showMessageDialog(frame, answerSubtract);
+		int m1 = Integer.parseInt(JOptionPane.showInputDialog("Please enter 1st number to multiply?"));
+		int m2=Integer.parseInt(JOptionPane.showInputDialog("Please enter 2st number to multiply?"));
+		int answerMulti=cal.multiply(m1, 2);
+		JOptionPane.showMessageDialog(frame, answerMulti);
 		
 		
 
