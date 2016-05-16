@@ -1,3 +1,5 @@
+import java.io.File;
+
 import org.opencv.core.Core;
 import org.opencv.core.Core.MinMaxLocResult;
 import org.opencv.core.CvType;
@@ -44,5 +46,15 @@ class MatchingDemo {
         Imgcodecs.imwrite(outFile, img);
 
     }
-}
+    
+        public static void main(String[] args) {
+            System.loadLibrary("opencv_java246");
+            File riptemplate, source, result;
+            result= new File("C:\\Users\\Colm\\Desktop\\ripImages\\Test\\result.png");
+            source=new File("C:\\Users\\Colm\\Desktop\\ripImages\\Test\\30.png");
+            riptemplate= new File("C:\\Users\\Colm\\Desktop\\ripImages\\Test\\ripTemplete1.png");
+            new MatchingDemo().run("C:\\Users\\Colm\\Desktop\\ripImages\\Test\\30.png", "C:\\Users\\Colm\\Desktop\\ripImages\\Test\\result.png", "C:\\Users\\Colm\\Desktop\\ripImages\\Test\\ripTemplete1.png", Imgproc.TM_CCOEFF);
+        }
+    }
+
 
